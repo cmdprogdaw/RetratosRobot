@@ -74,7 +74,7 @@ public class Main {
 		switch (opcionOjos) {
 		case 1: 
 			System.out.println("|  O O  |");
-			break; //si no lo pones se ejecutan todos los de debajo tambien
+			break; 
 		case 2:
 			System.out.println("|-(· ·)-|");
 			break;
