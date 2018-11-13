@@ -27,7 +27,7 @@ public class Main {
 			System.out.println("1 - |  O O  |");
 			System.out.println("2 - |-(· ·)-|"); 
 			System.out.println("3 - |-(o o)-|"); 
-			System.out.println("4 - |  \\ / |");
+			System.out.println("4 - |  \\ /  |");
 			System.out.println("Introduce el numero de la opcion elegida para los ojos: ");
 			opcionOjos = in.nextInt();
 			if (opcionOjos < 1 || opcionOjos > 4) {
@@ -79,7 +79,7 @@ public class Main {
 		switch (opcionOjos) {
 		case 1: 
 			System.out.println("|  O O  |");
-			break; //si no lo pones se ejecutan todos los de debajo tambien
+			break; 
 		case 2:
 			System.out.println("|-(· ·)-|");
 			break;
