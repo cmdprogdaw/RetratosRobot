@@ -1,12 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-	/**
-	 * @author aula9
-	 * @version 0.1
-	 * @param args
-	 */
-
+	
 	public static void main(String[] args) {
 		Scanner in = new Scanner (System.in);
 		int opcionPelo;
