@@ -10,7 +10,7 @@ public class Main2 {
 			{"barbilla", "\\_______/", "\\,,,,,,,/"}
 		};
 		
-		static String obtenerRasgo(int faccion) {
+		static String obtenerRasgo(int faccion) { 
 			int rasgo;
 			for (int i=1; i<rasgos[faccion].length; i++)
 				System.out.println(i + " - " + rasgos[faccion][i]);
